@@ -1,0 +1,3 @@
+Figure out missing libs in linux:
+ldd myso.file
+
