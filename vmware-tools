@@ -1,0 +1,27 @@
+1. Make sure the updates are done:
+sudo apt-get update
+
+2. Make sure git is installed
+sudo apt-get install git
+ 
+3. Run the command to get the tools from repository.
+sudo git clone https://github.com/rasa/vmware-tools-patches.git
+ 
+4. cd to vmware-tools-folder
+cd vmware-tools-patches
+ 
+5. Run the patch
+sudo ./download-tools.sh
+ 
+6. Run the following patch
+sudo ./untar-and-patch.sh
+ 
+7. Run the complie.sh file
+sudo ./compile.sh
+
+
+
+https://communities.vmware.com/thread/509898
+
+
+
